@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karmel | Gráfica Digital </title>
+    <link rel="stylesheet" href="styles/globais.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="FTS/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="heard-inner-content">
+            <img class="logo-img" src="FTS/Sem título-1.png">
+            <!-- 
+            <h1 class="logo">GRÁFICA <span>KARMEL</span></h1>  -->
+            <nav>
+                <ul>
+                    <li><a href="KARMEL.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="Sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="conta.html">Conta</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="FTS/bolsa-de-compras.png">
+                <img src="FTS/cardapio.png" class="menu-button">
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-inner-content">
+            <div class="header-botton-side">
+                <div class="header-botton-side-left">
+                    <h2>Promoção de Banners por apenas: R$34,99</h2>
+                    <p>COMPRE AGORA &#8594; | 
+                        Apresente seu anúncio com um banner de 1x70cm, 
+                        disponível sem arte! Perfeito para quem deseja personalizar com sua própria criação. 
+                        Ideal para destacar ofertas ou produtos, ele proporcionará uma visibilidade incrível.
+                        Delve nas possibilidades e faça deste banner o seu ultimate chamariz online!</p>
+                    <button>Ver agora &#8594;</button>
+                </div>
+                <div class="header-botton-side-right">
+                    <img src="FTS/post3.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--main Content-->
+
+    <main>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="cols cols-3">
+                    <img class="grid-3" src="FTS/Sem-Título-2.jpg">
+                    <img class="grid-3" src="FTS/Sem-Título-3.jpg">
+                    <img class="grid-3" src="FTS/Sem-Título-1.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="page-inner-content">
+            
+        </div>
+    </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton =  document.querySelector(".menu-button")
+
+        menuButton.addEventListener('click', () => { 
+            navbar.classList.toggle("show-menu")
+        });
+    </script>
+
+
+</body>
+</html>
